@@ -56,8 +56,9 @@ npx serve .
 
 1. Push to `main` (or open a PR into `main`). The workflow
    `.github/workflows/deploy.yml` runs validation, then deploys.
-2. In the repository go to **Settings → Pages** and set **Source: GitHub Actions**
-   (one-time step; can also be enabled via API — see below).
+2. Pages is enabled automatically by the workflow (`configure-pages` with
+   `enablement: true`). If that ever fails, go to **Settings → Pages** and set
+   **Source: GitHub Actions** manually.
 3. The site is served from `https://<owner>.github.io/<repo>/`.
 
 Manual checks before pushing:
