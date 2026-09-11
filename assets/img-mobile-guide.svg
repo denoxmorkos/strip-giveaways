@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-hidden="true">
+  <title>Mobile-friendly token guide illustration</title>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181C25"/>
+      <stop offset="1" stop-color="#10131B"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F2430"/>
+      <stop offset="1" stop-color="#141824"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="24" fill="url(#bg4)"/>
+  <circle cx="150" cy="140" r="150" fill="#22D3EE" opacity="0.08"/>
+  <circle cx="670" cy="470" r="160" fill="#A855F7" opacity="0.12"/>
+  <!-- phone -->
+  <g>
+    <rect x="290" y="70" width="220" height="460" rx="36" fill="url(#phone)"/>
+    <rect x="302" y="84" width="196" height="432" rx="26" fill="url(#screen)"/>
+    <rect x="368" y="98" width="64" height="12" rx="6" fill="#000000" opacity="0.6"/>
+    <!-- checklist rows -->
+    <g>
+      <circle cx="336" cy="160" r="14" fill="#14532D" stroke="#34D399" stroke-width="3"/>
+      <path d="M329 160 l5 5 9 -10" stroke="#D1FAE5" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="360" y="150" width="110" height="18" rx="9" fill="#FFFFFF" opacity="0.7"/>
+      <circle cx="336" cy="220" r="14" fill="#14532D" stroke="#34D399" stroke-width="3"/>
+      <path d="M329 220 l5 5 9 -10" stroke="#D1FAE5" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="360" y="210" width="90" height="18" rx="9" fill="#FFFFFF" opacity="0.55"/>
+      <circle cx="336" cy="280" r="14" fill="none" stroke="#A855F7" stroke-width="3"/>
+      <rect x="360" y="270" width="110" height="18" rx="9" fill="#FFFFFF" opacity="0.35"/>
+      <circle cx="336" cy="340" r="14" fill="none" stroke="#A855F7" stroke-width="3"/>
+      <rect x="360" y="330" width="76" height="18" rx="9" fill="#FFFFFF" opacity="0.35"/>
+    </g>
+    <!-- play button card -->
+    <rect x="322" y="392" width="156" height="88" rx="16" fill="#A855F7" opacity="0.9"/>
+    <circle cx="400" cy="436" r="26" fill="#FFFFFF"/>
+    <path d="M393 423 L413 436 L393 449 Z" fill="#6D28D9"/>
+  </g>
+  <!-- chat bubbles -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <rect x="540" y="150" width="180" height="64" rx="20" fill="#232936" stroke="#22D3EE" stroke-width="2"/>
+    <text x="630" y="189" font-size="22" fill="#E5E7EB" text-anchor="middle">Is this offer real?</text>
+    <rect x="80" y="330" width="180" height="64" rx="20" fill="#232936" stroke="#E879F9" stroke-width="2"/>
+    <text x="170" y="369" font-size="22" fill="#E5E7EB" text-anchor="middle">Check the terms ✓</text>
+  </g>
+</svg>

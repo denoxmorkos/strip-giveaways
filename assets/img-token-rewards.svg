@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-hidden="true">
+  <title>Token and reward graphic</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181C25"/>
+      <stop offset="1" stop-color="#10131B"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E879F9"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="coin2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" rx="24" fill="url(#bg2)"/>
+  <circle cx="400" cy="290" r="230" fill="url(#orb2)"/>
+  <!-- gift box -->
+  <g>
+    <rect x="300" y="360" width="200" height="130" rx="14" fill="#232936" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <rect x="280" y="322" width="240" height="52" rx="14" fill="url(#coin)"/>
+    <rect x="384" y="322" width="32" height="168" fill="#FDE68A" opacity="0.85"/>
+  </g>
+  <!-- big token -->
+  <g>
+    <circle cx="400" cy="220" r="104" fill="url(#coin)" stroke="#F5D0FE" stroke-width="6"/>
+    <circle cx="400" cy="220" r="78" fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="3" stroke-dasharray="10 8"/>
+    <text x="400" y="252" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="88" font-weight="800" fill="#FFFFFF" text-anchor="middle">T</text>
+  </g>
+  <!-- small tokens -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-weight="800" text-anchor="middle">
+    <circle cx="180" cy="400" r="52" fill="url(#coin2)" stroke="#CFFAFE" stroke-width="4"/>
+    <text x="180" y="419" font-size="44" fill="#FFFFFF">T</text>
+    <circle cx="622" cy="392" r="60" fill="url(#coin2)" stroke="#CFFAFE" stroke-width="4"/>
+    <text x="622" y="414" font-size="50" fill="#FFFFFF">T</text>
+    <circle cx="610" cy="180" r="34" fill="#232936" stroke="#E879F9" stroke-width="3"/>
+    <text x="610" y="194" font-size="30" fill="#F5D0FE">T</text>
+    <circle cx="192" cy="176" r="28" fill="#232936" stroke="#22D3EE" stroke-width="3"/>
+    <text x="192" y="188" font-size="24" fill="#CFFAFE">T</text>
+  </g>
+  <!-- sparkles -->
+  <g fill="#FDE68A" opacity="0.9">
+    <circle cx="300" cy="140" r="6"/>
+    <circle cx="500" cy="120" r="4"/>
+    <circle cx="700" cy="280" r="5"/>
+    <circle cx="100" cy="280" r="5"/>
+  </g>
+</svg>
